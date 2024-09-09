@@ -1,3 +1,10 @@
+/*
+How many lines you want?
+3
+1
+12
+123
+*/
 #include <iostream>
 using namespace std;
 

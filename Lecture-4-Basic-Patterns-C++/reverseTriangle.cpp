@@ -1,26 +1,28 @@
 /*
-Enter how many lines you want: 3
-A
-BB
-CCC
+How many lines you want?
+3
+1
+21
+321
 */
+
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    cout << "Enter how many lines you want: ";
+    cout << "How many lines you want?\n";
     int n;
     cin >> n;
-    char ch = 'A';
+
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < i + 1; j++)
+        for (int j = i + 1;j>0 ;j--)
         {
-            cout << ch;
+            cout << j << "";
         }
-        ch++;
         cout << endl;
     }
+
     return 0;
 }

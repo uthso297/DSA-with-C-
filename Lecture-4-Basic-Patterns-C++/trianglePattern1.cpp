@@ -1,3 +1,10 @@
+/*
+How many lines you want?
+3
+*
+**
+***
+*/
 #include <iostream>
 using namespace std;
 

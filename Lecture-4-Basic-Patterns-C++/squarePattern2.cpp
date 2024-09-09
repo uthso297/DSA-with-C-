@@ -1,3 +1,9 @@
+/*
+Enter how many lines you want: 3
+ABC
+ABC
+ABC
+*/
 #include <iostream>
 using namespace std;
 
