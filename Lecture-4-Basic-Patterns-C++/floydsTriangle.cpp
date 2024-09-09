@@ -16,10 +16,10 @@ int main()
     cout << "How many lines you want?\n";
     int n;
     cin >> n;
-    int num =1;
+    int num = 1;
     for (int i = 0; i < n; i++)
     {
-        for (int j = 1; j <= i + 1; j++)
+        for (int j = i + 1;j>0 ;j--)
         {
             cout << num;
             num++;
